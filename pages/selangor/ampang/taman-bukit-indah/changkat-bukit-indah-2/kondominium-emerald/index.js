@@ -23,29 +23,32 @@ export default function State() {
       <CenterContainer>
         <div className="py-10 px-2 sm:px-4 md:px-6 lg:px-8 xl:px-10 border border-tmOrange-500">
           <div className="text-xl sm:text-2xl text-gray-900 font-bold">
-            Kondominium Emerald is within the unifi Fibre coverage
+            Great! We've got you covered.
           </div>
           <div className="my-8">
             <p>
-              The next step is to check for internet port availability for your specific address:
+              This area is within our unifi fibre coverage.
+              <br />
+              Posts are limited. Hurry up and sign up today!
             </p>
-            <ol className="ml-8 mt-4 list-decimal">
-              <li>Select from any plan from 30Mpbs up to 800Mbps</li>
-              <li>Fill up your name, email, and phone number</li>
-              <li>Search for your unit number</li>
-            </ol>
+            <p className="mt-8 leading-5 text-gray-700 uppercase">
+              Kondominium Emerald
+              <br />
+              Changkat Bukit Indah 2<br />
+              Bukit Indah
+              <br />
+              68000 Ampang
+              <br />
+              Selangor
+            </p>
           </div>
           <div>
             <a
-              href="https://unifi.com.my"
+              href="https://unifi.com.my/fibre-broadband/check-coverage?address=kondominium emerald changkat bukit indah 2 selangor"
               className="bg-tmOrange-500 text-white font-bold p-3 rounded inline-block"
             >
-              CHECK FOR PORT AVAILABILITY
+              CHECK AVAILABLE PLANS
             </a>
-            <div className="text-gray-500 text-sm italic mt-1">
-              You don't have to decide to subscribe to unifi today, but it's good to know if we've
-              got you covered.
-            </div>
           </div>
         </div>
       </CenterContainer>
